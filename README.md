@@ -17,19 +17,10 @@ ADBEnumerator is a multi-threaded Python tool for scanning and gathering informa
 ## Installation
 1. Install Python 3.x from [Python's official website](https://www.python.org/).
 2. Install ADB via Android SDK Platform Tools or your system's package manager.
-3. Clone this repository:
-```bash
-$ git clone <repository-url>
-$ cd adb-scanner
-```
-4. Install dependencies (if any):
-```bash
-$ pip install -r requirements.txt  # If you add any dependencies later
-```
 
 ## Usage
 ```
-python3 adb_scanner.py [-h] [-ip IPADDRESS] [-f FILE] [-t THREADS]
+python3 ADBEnum3.py [-h] [-ip IPADDRESS] [-f FILE] [-t THREADS]
 ```
 
 ### Arguments:
@@ -41,17 +32,17 @@ python3 adb_scanner.py [-h] [-ip IPADDRESS] [-f FILE] [-t THREADS]
 
 - Scan a single IP:
 ```bash
-python3 adb_scanner.py -ip 192.168.1.10
+python3 ADBEnum3.py -ip 192.168.1.10
 ```
 
 - Scan a subnet:
 ```bash
-python3 adb_scanner.py -ip 192.168.1.0/24
+python3 ADBEnum3.py -ip 192.168.1.0/24
 ```
 
 - Scan from a file of IP addresses:
 ```bash
-python3 adb_scanner.py -f ips.txt
+python3 ADBEnum3.py -f ips.txt
 ```
 
 ## Output
